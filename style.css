@@ -76,6 +76,7 @@ nav ul li{
 
 #progressBar{
     width: 75%;
+    cursor: pointer;
 }
 
 .songItemsContainer{
@@ -87,7 +88,7 @@ nav ul li{
     display: flex;
     height: 2rem;   
     background-color: white;
-    width: 65%;
+    width: 65%; 
     border-radius: 5rem;
     color: black;
     justify-content: space-between;
@@ -107,6 +108,8 @@ nav ul li{
 .songInfo{
     position: absolute;
     left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.7rem;
 }
 
 .songInfo img{
